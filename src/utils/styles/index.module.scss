@@ -1,0 +1,41 @@
+body,
+html,
+#root{
+    height:100%;
+}
+body,
+html{
+    background-color: #1a1a1a;
+    font-family: "Inter";
+}
+form {
+    width: 800px;
+}
+.nameField{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    gap: 8px;
+    margin:8px 0;
+}
+.txtWhite{
+    color:#fff
+}
+.footerText{
+    & :last-child{
+        text-decoration: underline;
+        color: rgb(129, 146, 145);
+    }
+    text-align: center;
+
+}
+.button{
+margin:10px 0;
+}
+
+.loginPassword{
+    margin: 10px 0;
+}
+h1{
+    margin:0
+}

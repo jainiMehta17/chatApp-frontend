@@ -1,0 +1,22 @@
+.conversationAvatar{
+height:40px;
+width:40px;
+border-radius:50%;
+background-color:aqua;
+
+}
+.conversationName{
+display: block;
+font-weight:600;
+font-size:16px;
+}
+.conversationLastMessage{
+    font-size:15px;
+    color:#a39c9c;
+}
+.createConvesationForm{
+    width: 100%;
+}
+.messages{
+    margin:8px 0;
+}
